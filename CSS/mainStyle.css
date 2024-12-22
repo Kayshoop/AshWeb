@@ -45,6 +45,8 @@ nav {
 
 /* building service section */
 .service {
+    display: flex;
+    flex-direction: row;
     background-color: rgb(207, 140, 106);
 }
 
@@ -56,12 +58,23 @@ nav {
 }
 
 .service-box {
+    flex-wrap: wrap;
     border: 2px;
     border-style: solid;
 
     padding: 2%;
 
     background-color: rgb(255, 201, 185);
+}
+
+.serviceList {
+    display: flex;
+    justify-content: center;
+
+    border: 2px;
+    border-style: solid;
+    margin: 3%;
+    padding: 5%;
 }
 
 .product {
