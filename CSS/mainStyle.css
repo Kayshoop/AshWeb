@@ -1,5 +1,12 @@
+/* COLOR PALETTE
+    rgb(44, 110, 73) forest green
+    rgb(76, 149, 108) christmas green
+    rgb(254, 254, 227) white/yellow
+    rgb(255, 201, 185) peach
+    rgb(207, 140, 106) brown
+*/
 html {
-    background-color: rgb(255, 241, 217);
+    background-color: rgb(254, 254, 227);
 }
 
 body {
@@ -13,7 +20,7 @@ nav {
     justify-content: space-between;
     align-items: center;
 
-    background-color: rgb(183, 216, 180);
+    background-color: rgb(44, 110, 73);
 }
 
 .hero {
@@ -22,7 +29,7 @@ nav {
     align-items: center;
     padding: 20px;
 
-    background-color: rgb(241, 202, 209);
+    background-color: rgb(76, 149, 108);
 }
 
 .cancel {
@@ -32,13 +39,13 @@ nav {
     padding: 0;
     margin: 0;
 
-    background-color: rgb(255, 241, 217);
+    background-color: rgb(254, 254, 227);
     color: red;
 }
 
 /* building service section */
 .service {
-    background-color: rgb(241, 191, 209);
+    background-color: rgb(207, 140, 106);
 }
 
 .serviceGala {
@@ -53,6 +60,8 @@ nav {
     border-style: solid;
 
     padding: 2%;
+
+    background-color: rgb(255, 201, 185);
 }
 
 .product {
@@ -66,7 +75,7 @@ footer {
     justify-content: space-around;
     padding: 5%;
 
-    background-color: black;
+    background-color: rgb(53, 52, 52);
 }
 
 button {
