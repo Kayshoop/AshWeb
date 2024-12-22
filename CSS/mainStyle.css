@@ -1,6 +1,12 @@
 html {
     background-color: rgb(255, 241, 217);
 }
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
 nav {
     display: flex;
     flex-direction: row;
@@ -30,9 +36,23 @@ nav {
     color: red;
 }
 
+/* building service section */
 .service {
     background-color: rgb(241, 191, 209);
+}
 
+.serviceGala {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    padding: 5%;
+}
+
+.service-box {
+    border: 2px;
+    border-style: solid;
+
+    padding: 2%;
 }
 
 .product {
