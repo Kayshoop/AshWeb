@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     ]; // there are 73 services
 
-    const gallery = document.getElementsByClassName('serviceGala');
+    const gallery = document.getElementsByClassName('serviceGala')[0];
 
     service.forEach(service => {
         const serviceBox = document.createElement('div');
